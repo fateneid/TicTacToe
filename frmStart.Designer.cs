@@ -46,7 +46,7 @@
             this.btnStart.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnStart.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStart.ForeColor = System.Drawing.Color.White;
-            this.btnStart.Location = new System.Drawing.Point(305, 360);
+            this.btnStart.Location = new System.Drawing.Point(230, 372);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(190, 69);
             this.btnStart.TabIndex = 33;
@@ -61,9 +61,9 @@
             this.cmbP1Symbol.Items.AddRange(new object[] {
             "X",
             "O"});
-            this.cmbP1Symbol.Location = new System.Drawing.Point(343, 242);
+            this.cmbP1Symbol.Location = new System.Drawing.Point(375, 248);
             this.cmbP1Symbol.Name = "cmbP1Symbol";
-            this.cmbP1Symbol.Size = new System.Drawing.Size(91, 31);
+            this.cmbP1Symbol.Size = new System.Drawing.Size(140, 31);
             this.cmbP1Symbol.TabIndex = 32;
             this.cmbP1Symbol.Text = "X or O";
             // 
@@ -72,7 +72,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(224, 240);
+            this.label6.Location = new System.Drawing.Point(135, 246);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(109, 33);
             this.label6.TabIndex = 31;
@@ -81,7 +81,7 @@
             // txtPlayer2Name
             // 
             this.txtPlayer2Name.Font = new System.Drawing.Font("Comic Sans MS", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPlayer2Name.Location = new System.Drawing.Point(437, 195);
+            this.txtPlayer2Name.Location = new System.Drawing.Point(375, 201);
             this.txtPlayer2Name.Name = "txtPlayer2Name";
             this.txtPlayer2Name.Size = new System.Drawing.Size(140, 30);
             this.txtPlayer2Name.TabIndex = 30;
@@ -90,7 +90,7 @@
             // txtPlayer1Name
             // 
             this.txtPlayer1Name.Font = new System.Drawing.Font("Comic Sans MS", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPlayer1Name.Location = new System.Drawing.Point(437, 140);
+            this.txtPlayer1Name.Location = new System.Drawing.Point(375, 146);
             this.txtPlayer1Name.Name = "txtPlayer1Name";
             this.txtPlayer1Name.Size = new System.Drawing.Size(140, 30);
             this.txtPlayer1Name.TabIndex = 29;
@@ -101,7 +101,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(224, 190);
+            this.label4.Location = new System.Drawing.Point(135, 196);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(210, 33);
             this.label4.TabIndex = 28;
@@ -112,7 +112,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(224, 140);
+            this.label2.Location = new System.Drawing.Point(135, 146);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(206, 33);
             this.label2.TabIndex = 27;
@@ -123,7 +123,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Comic Sans MS", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(232, 33);
+            this.lblTitle.Location = new System.Drawing.Point(153, 39);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(345, 69);
             this.lblTitle.TabIndex = 34;
@@ -134,7 +134,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(224, 290);
+            this.label1.Location = new System.Drawing.Point(135, 296);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 33);
             this.label1.TabIndex = 35;
@@ -142,14 +142,14 @@
             // 
             // numRounds
             // 
-            this.numRounds.Location = new System.Drawing.Point(343, 297);
+            this.numRounds.Location = new System.Drawing.Point(375, 303);
             this.numRounds.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numRounds.Name = "numRounds";
-            this.numRounds.Size = new System.Drawing.Size(91, 26);
+            this.numRounds.Size = new System.Drawing.Size(140, 26);
             this.numRounds.TabIndex = 36;
             this.numRounds.Value = new decimal(new int[] {
             1,
@@ -162,7 +162,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(800, 463);
+            this.ClientSize = new System.Drawing.Size(650, 485);
             this.Controls.Add(this.numRounds);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTitle);
@@ -173,7 +173,9 @@
             this.Controls.Add(this.txtPlayer1Name);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmStart";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe";
             this.Load += new System.EventHandler(this.frmStart_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numRounds)).EndInit();

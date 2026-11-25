@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 using TicTacToe.Properties;
 
 namespace TicTacToe
@@ -18,17 +11,10 @@ namespace TicTacToe
         {
             InitializeComponent();
 
-            this.FormClosed += (s, e) =>
-            {
-                if (!this.IsDisposed && Application.OpenForms.Count == 0)
-                    Application.Exit();
-            };
-
             GameInfo.Player1Name = p1Name;
             GameInfo.Player2Name = p2Name;
             GameInfo.IsPlayer1X = p1IsX;
             GameInfo.TotalRounds = numRounds;
-
         }
 
         enum enWinner
@@ -319,11 +305,7 @@ namespace TicTacToe
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
-
-            frmStart startForm = new frmStart();
-            startForm.Show();
             this.Close();
-
         }
 
 

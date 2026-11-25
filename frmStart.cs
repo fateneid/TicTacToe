@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TicTacToe
@@ -16,16 +9,11 @@ namespace TicTacToe
         {
             InitializeComponent();
 
-            this.FormClosed += (s, e) =>
-            {
-                if (!this.IsDisposed && Application.OpenForms.Count == 0)
-                    Application.Exit();
-            };
-
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            this.Hide();
 
             frmGame gameForm = new frmGame(
                 txtPlayer1Name.Text,
@@ -34,9 +22,9 @@ namespace TicTacToe
                 (int)numRounds.Value
                 );
 
-            gameForm.Show();
-            this.Close();
+            gameForm.ShowDialog();
 
+            this.Show();
         }
 
         private void frmStart_Load(object sender, EventArgs e)
@@ -46,5 +34,6 @@ namespace TicTacToe
             cmbP1Symbol.SelectedIndex = 0;
             numRounds.Value = 1;
         }
+
     }
 }

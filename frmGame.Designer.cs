@@ -413,7 +413,9 @@
             this.Controls.Add(this.lblWinner);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmGame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe";
             this.Load += new System.EventHandler(this.frmGame_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmGame_Paint);
